@@ -74,8 +74,8 @@ def send_email(sender_email, sender_password, recipient_name, recipient_email, f
 
 
 # Your Outlook email credentials
-sender_email = "k.rafati@outlook.com"
-sender_password = "kian.rafati"
+sender_email = "name@example.com"
+sender_password = "password"
 
 # Read data from the Excel file (assuming it has 'Name' and 'Email' columns)
 data = pd.read_excel('EE_ProfessorsDB.xlsx')
